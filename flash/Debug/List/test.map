@@ -1,0 +1,37 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+j                                                                                 0x0080       1
+state                                                                             0x0081       1
+val                                                                               0x0082       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+sens_t                                                                            R2,R3        2
+time                                                                              R4,R5        2
+cnt                                                                               R7           1
+inv                                                                               R6           1
+up                                                                                R9           1
+flag                                                                              R8           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+initdev                                                                           0x00038     29
+line                                                                              0x00055     61
+one_led                                                                           0x00092     72
+full                                                                              0x000DA    244
+last                                                                              0x001CE     85
+mig                                                                               0x00223     44
+sensor_drv                                                                        0x0024F     21
+WD                                                                                0x00264      9
+main                                                                              0x0026D     38
+comp_a_25us                                                                       0x00293     43
+comp_a_200ms                                                                      0x002BE     11
+putchar                                                                           0x002C9      7
+putsf                                                                             0x002D0     21
